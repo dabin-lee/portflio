@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, Outlet } from 'react-router-dom'
+import Main from './pages/main';
+import { Nav } from './components/nav';
+import { Footer } from './components/footer';
+import { useRef } from 'react';
+import { NavContext } from './context/navContext'
 
+
+const Layout = () => {
+  return (
+    <div>
+      <Nav />
+      <Outlet />
+      <Footer />
+    </div>
+  )
+}
 function App() {
+
+  const whoIam = useRef(null)
+  const career = useRef(null)
+  const project = useRef(null)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavContext.Provider value={{ whoIam, career, project }}>
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Main />} />
+          </Route>
+        </Routes>
+      </NavContext.Provider>
     </div>
   );
 }

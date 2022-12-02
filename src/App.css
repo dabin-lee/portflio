@@ -60,4 +60,13 @@ footer {
   .ex_list li {
     @apply list-disc list-outside mt-1
   }
+
+  .project>li~li {
+    @apply mt-6
+  }
+
+  .project_tit {
+    @apply font-bold p-4 pl-0 text-sky-800 font-bold
+  }
+
 }

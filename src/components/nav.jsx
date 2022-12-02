@@ -42,7 +42,7 @@ export const Nav = () => {
 
 
     return (
-        <div className={`fixed top-0 h-16 w-full pr-4 py-1 mb-2 z-10 text-gray-600 border-b bg-gray-30 bg-slate-300 duration-700 ease-in ${scroll && 'backdrop-blur-md bg-white/30'}`}>
+        <div className={`fixed top-0 h-16 w-full pr-4 py-1 mb-2 z-10 text-gray-600 border-b bg-slate-300 duration-700 ease-in ${scroll && 'backdrop-blur-md bg-white/30'}`}>
             <div className="w-10/12 h-full m-auto flex items-center justify-end">
                 <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>자기소개</button>
                 <button className="ml-5 blur-none" onClick={() => handleScroll(navData.career.current)}>경력사항</button>

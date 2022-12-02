@@ -35,8 +35,9 @@ function Main() {
                                     <li>
                                         <a href="https://2mango.tistory.com" target="_blank"><span className="s_tit">Blog</span></a>
                                     </li>
+
                                     <li>
-                                        <a href="https://www.notion.so/488f725816a94e49bf2eefd485d1bdb3" target="_blank"><span className="s_tit">Resume</span></a>
+                                        <a href="https://www.notion.so/488f725816a94e49bf2eefd485d1bdb3" target="_blank"><span className="s_tit">Notion</span></a>
                                     </li>
                                 </ul>
 

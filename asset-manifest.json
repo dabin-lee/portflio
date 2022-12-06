@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portflio/static/css/main.00045ea3.css",
-    "main.js": "/portflio/static/js/main.1ac2641a.js",
+    "main.css": "/portflio/static/css/main.cf559ccd.css",
+    "main.js": "/portflio/static/js/main.91aaf10f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portflio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/react-netflix_03.png": "/portflio/static/media/react-netflix_03.4af070cf199471b833ea.png",
+    "static/media/react-netflix_02.png": "/portflio/static/media/react-netflix_02.aed71bf15dde9a82505a.png",
     "static/media/netflix.png": "/portflio/static/media/netflix.bed3f08b441c9e589367.png",
+    "static/media/profile_color.png": "/portflio/static/media/profile_color.dc8cc847cc8a36d91b3c.png",
     "static/media/login-page.png": "/portflio/static/media/login-page.dcfa1a53a22189939c8d.png",
     "index.html": "/portflio/index.html",
-    "main.00045ea3.css.map": "/portflio/static/css/main.00045ea3.css.map",
-    "main.1ac2641a.js.map": "/portflio/static/js/main.1ac2641a.js.map",
+    "main.cf559ccd.css.map": "/portflio/static/css/main.cf559ccd.css.map",
+    "main.91aaf10f.js.map": "/portflio/static/js/main.91aaf10f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portflio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00045ea3.css",
-    "static/js/main.1ac2641a.js"
+    "static/css/main.cf559ccd.css",
+    "static/js/main.91aaf10f.js"
   ]
 }

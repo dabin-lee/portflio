@@ -3,7 +3,7 @@
 @tailwind utilities;
 @tailwind variants;
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
 
 * {
   margin: 0;
@@ -12,6 +12,10 @@
 .App {
   background-color: #f5f5f5;
   min-width: 1200px;
+}
+
+.ant-modal-footer button {
+  display: none;
 }
 
 footer {
@@ -30,43 +34,63 @@ footer {
   }
 
   .tit {
-    @apply text-2xl leading-10 text-sky-800 font-semibold
+    @apply text-2xl leading-10 text-sky-800 font-semibold;
   }
 
   .s_tit {
-    @apply w-5/12 text-sky-800 font-bold
+    @apply w-5/12 text-sky-800 font-bold;
   }
 
   .stack {
-    @apply flex flex-wrap gap-x-1
+    @apply flex flex-wrap gap-x-1;
   }
 
   .stack p {
-    @apply mt-3
+    @apply mt-3;
   }
 
   .career_li {
-    @apply flex gap-5 pl-2 list-disc
+    @apply flex gap-5 pl-2 list-disc;
   }
 
   .cont {
-    @apply text-stone-600 pl-6 border-l-2
+    @apply text-stone-600 pl-6 border-l-2;
   }
 
   .project_tit {
-    @apply min-w-2/6 text-xl
+    @apply min-w-2/6 text-xl;
   }
 
   .ex_list li {
-    @apply list-disc list-outside mt-1
+    @apply list-disc list-outside mt-1;
   }
 
-  .project>li~li {
-    @apply mt-6
+  .project > li ~ li {
+    @apply mt-6;
   }
 
   .project_tit {
-    @apply font-bold p-4 pl-0 text-sky-800 font-bold
+    @apply font-bold p-4 pl-0 text-sky-800 font-bold;
   }
-
+  .closeBtn {
+    @apply mt-4 w-36 text-center;
+  }
+  .desc h2 {
+    @apply font-bold text-lg mt-5;
+  }
+  .desc .content {
+    @apply mt-3 pl-4;
+  }
+  .desc .content h3 {
+    @apply font-semibold bg-slate-200;
+  }
+  .desc .tborder {
+    @apply border-r-2 p-2;
+  }
+  .content h4 {
+    @apply font-semibold;
+  }
+  .content .stack {
+    @apply flex gap-3 mt-3;
+  }
 }

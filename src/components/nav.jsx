@@ -16,22 +16,22 @@ export const Nav = () => {
     }, [])
 
 
-    const moveScroll = (e) => {
-        console.log(e)
-        const whereDom = e.value
-        switch (whereDom) {
-            case "자기소개":
-                window.scrollTo({ top: 0, behavior: 'smooth' })
-                // navData.whoIam.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                break;
-            case "경력사항":
-                navData.career.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                break;
-            case "프로젝트":
-                navData.project.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                break;
-        }
-    }
+    // const moveScroll = (e) => {
+    //     console.log(e)
+    //     const whereDom = e.value
+    //     switch (whereDom) {
+    //         case "자기소개":
+    //             window.scrollTo({ top: 0, behavior: 'smooth' })
+    //             // navData.whoIam.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //             break;
+    //         case "경력사항":
+    //             navData.career.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //             break;
+    //         case "프로젝트":
+    //             navData.project.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    //             break;
+    //     }
+    // }
     const handleScroll = (ref) => {
         window.scrollTo({
             top: ref.offsetTop,

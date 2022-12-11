@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portflio/static/css/main.ed4cebfd.css",
-    "main.js": "/portflio/static/js/main.89be270c.js",
+    "main.css": "/portflio/static/css/main.ec005132.css",
+    "main.js": "/portflio/static/js/main.b620c9d6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portflio/static/js/787.1ed0c42c.chunk.js",
     "static/media/react-netflix_03.png": "/portflio/static/media/react-netflix_03.4af070cf199471b833ea.png",
     "static/media/react-netflix_02.png": "/portflio/static/media/react-netflix_02.aed71bf15dde9a82505a.png",
     "static/media/netflix.png": "/portflio/static/media/netflix.bed3f08b441c9e589367.png",
     "static/media/2022.png": "/portflio/static/media/2022.7720d719f8735bd579a8.png",
-    "static/media/aaa.png": "/portflio/static/media/aaa.3445c59c8bd60c593270.png",
+    "static/media/aaa.png": "/portflio/static/media/aaa.7e2da55731e64476d4f6.png",
     "static/media/login-page.png": "/portflio/static/media/login-page.dcfa1a53a22189939c8d.png",
     "static/media/bbb.png": "/portflio/static/media/bbb.d67c04b6cf956ebbfbbe.png",
     "index.html": "/portflio/index.html",
-    "main.ed4cebfd.css.map": "/portflio/static/css/main.ed4cebfd.css.map",
-    "main.89be270c.js.map": "/portflio/static/js/main.89be270c.js.map",
+    "main.ec005132.css.map": "/portflio/static/css/main.ec005132.css.map",
+    "main.b620c9d6.js.map": "/portflio/static/js/main.b620c9d6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portflio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed4cebfd.css",
-    "static/js/main.89be270c.js"
+    "static/css/main.ec005132.css",
+    "static/js/main.b620c9d6.js"
   ]
 }

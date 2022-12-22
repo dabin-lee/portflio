@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fbb42943.css",
-    "main.js": "/portfolio/static/js/main.82cf5351.js",
+    "main.css": "/portfolio/static/css/main.ba07080a.css",
+    "main.js": "/portfolio/static/js/main.2b63747f.js",
     "static/media/react-netflix_03.png": "/portfolio/static/media/react-netflix_03.4af070cf199471b833ea.png",
     "static/media/react-netflix_02.png": "/portfolio/static/media/react-netflix_02.aed71bf15dde9a82505a.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.bed3f08b441c9e589367.png",
@@ -15,11 +15,11 @@
     "static/media/frame3.png": "/portfolio/static/media/frame3.e3538764c5a4aa682c55.png",
     "static/media/bbb.png": "/portfolio/static/media/bbb.d67c04b6cf956ebbfbbe.png",
     "index.html": "/portfolio/index.html",
-    "main.fbb42943.css.map": "/portfolio/static/css/main.fbb42943.css.map",
-    "main.82cf5351.js.map": "/portfolio/static/js/main.82cf5351.js.map"
+    "main.ba07080a.css.map": "/portfolio/static/css/main.ba07080a.css.map",
+    "main.2b63747f.js.map": "/portfolio/static/js/main.2b63747f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb42943.css",
-    "static/js/main.82cf5351.js"
+    "static/css/main.ba07080a.css",
+    "static/js/main.2b63747f.js"
   ]
 }
